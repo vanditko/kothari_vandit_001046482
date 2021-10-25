@@ -99,6 +99,12 @@ public class ManageJPanel extends javax.swing.JPanel {
             tblDetails.getColumnModel().getColumn(8).setResizable(false);
         }
 
+        txtField.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtFieldActionPerformed(evt);
+            }
+        });
+
         jLabel2.setFont(new java.awt.Font("Comic Sans MS", 1, 13)); // NOI18N
         jLabel2.setText("       Enter your Inputs Below ");
 
@@ -552,6 +558,10 @@ public class ManageJPanel extends javax.swing.JPanel {
             JOptionPane.showMessageDialog(null, "Please select a Row!!");
         }
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void txtFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtFieldActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtFieldActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
