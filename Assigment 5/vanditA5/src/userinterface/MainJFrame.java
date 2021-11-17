@@ -123,7 +123,10 @@ public class MainJFrame extends javax.swing.JFrame {
 
     private void loginJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_loginJButtonActionPerformed
         // Get user name
-       
+       jTextField1.setText (" ");
+jPasswordField1.setText ("");
+JOptionPane.showMessageDialog(null,"Berhasil masuk", "Sukses",
+jOptionPane.INFORMATION_MESSAGE); 
     }//GEN-LAST:event_loginJButtonActionPerformed
 
     private void logoutJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_logoutJButtonActionPerformed

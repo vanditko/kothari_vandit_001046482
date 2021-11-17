@@ -154,7 +154,11 @@ public class CustomerAreaJPanel extends javax.swing.JPanel {
     }//GEN-LAST:event_requestTestJButtonActionPerformed
 
     private void refreshTestJButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_refreshTestJButtonActionPerformed
-
+tfTextField.setText("");
+cbComboBox.setSelectedIndex(-1);
+this.dispose();
+JFrame f = new Add();
+f.setVisible(true);
         populateRequestTable();
         
     }//GEN-LAST:event_refreshTestJButtonActionPerformed
