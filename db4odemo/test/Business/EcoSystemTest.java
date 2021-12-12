@@ -42,13 +42,13 @@ public class EcoSystemTest {
     }
 
     @Test
-    public void testCustomerLogin() {
+   // public void testCustomerLogin() {
         // testing code
-        assertNotNull( ecoSystem.loginCustomer("kd@neu.edu","12345"));
-        assertNull( ecoSystem.loginCustomer("nousr","nopass"));
-    }
+     //   assertNotNull( ecoSystem.loginCustomer("kd@neu.edu","12345"));
+       // assertNull( ecoSystem.loginCustomer("nousr","nopass"));
+    //}
 
-    @Test
+   // @Test
     public void testRestaurantLogin() {
         // testing code
         assertNotNull( ecoSystem.loginResaturant("w@neu.com","12345"));
